@@ -81,7 +81,14 @@ body {
     grid-column-gap: 20px;
     
   }
-
+.hoverMe{
+  grid-area: hover;
+  background-color: rgb(215, 31, 31);
+  color:white;
+  width: 150px;
+  text-align: center;
+  height: 50px;
+}
 }
 
   
