@@ -27,6 +27,32 @@ body {
     background-color: #FFFFFF;
     text-align: center;
   }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    font-family: helvetica, arial, sans-serif;
+    color: white;
+    grid-template-areas:
+    "hover"
+    "disabled"
+    ;
+    height: 500px;
+  }
+.hoverMe{
+  grid-area:hover;
+  background-color: rgb(31, 215, 101);
+  color:white;
+  width: 150px;
+  text-align: center;
+  height: 50px;
+  transition: 0.3s;
+}
+.hoverMe:hover {
+  background-color:rgb(41, 142, 50);
+}
   button {
     padding: 15px;
     background-color: #373738;
@@ -81,14 +107,8 @@ body {
     grid-column-gap: 20px;
     
   }
-.hoverMe{
-  grid-area: hover;
-  background-color: rgb(215, 31, 31);
-  color:white;
-  width: 150px;
-  text-align: center;
-  height: 50px;
-}
+  
+
 }
 
   
