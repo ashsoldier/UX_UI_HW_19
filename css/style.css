@@ -43,7 +43,7 @@ body {
   }
 .hoverMe{
   grid-area:hover;
-  background-color: rgb(31, 215, 101);
+  background-color: rgb(140, 135, 145);
   color:white;
   width: 150px;
   text-align: center;
@@ -51,7 +51,7 @@ body {
   transition: 0.3s;
 }
 .hoverMe:hover {
-  background-color:rgb(41, 142, 50);
+  background-color:rgb(212, 202, 14);
 }
   button {
     padding: 15px;
@@ -111,4 +111,6 @@ body {
 
 }
 
-  
+  .green {
+    background-color: green;
+  }
